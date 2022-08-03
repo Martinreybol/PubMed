@@ -1,0 +1,12 @@
+Programa para descarga de archivos en Pubmed
+https://github.com/billgreenwald/Pubmed-Batch-Download
+
+librerias que se deben instalar:
+tkinter, pandas, numpy, os, nltk, fitz, re
+
+Columnas que debe tener archivo Excel:
+	Obligatorias: 'Locus Tag','Gene Name','Product Synonyms' 
+	Opcional:     'Type1','Type2'
+
+Columnas que debe tener archivo Keywords:
+'KEYWORD'
